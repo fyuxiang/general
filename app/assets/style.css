@@ -1,0 +1,8 @@
+body{
+    background-color: red;
+}
+#content{
+    background-image: url(/app/assets/images/8dcac6d8e9f1f77a96fb1ad5832fe3c3.png);
+    height: 200px;
+    box-shadow: 1px 1px red;
+}

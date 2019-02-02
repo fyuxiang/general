@@ -1,0 +1,9 @@
+body{
+    background-color: red;
+}
+#content{
+    background-image: url('./image/403.png');
+    height: 200px;
+    box-shadow: 1px 1px red;
+    box-sizing: border-box;
+}
