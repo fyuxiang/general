@@ -7,8 +7,11 @@ module.exports = {//注意这里是exports不是export
     entry: path.join(__dirname, 'src', 'main.js'),
     output: {//输出目录
         path: path.join(__dirname, 'app'),//打包后的js文件存放的地方
-        filename: "[name].js",
-        publicPath: '/app/'//打包后的js文件名
+        filename: "general.js",
+        publicPath: '/app/',//打包后的js文件名
+        library: 'genearl', // library指定的就是你使用require时的模块名
+        libraryTarget: 'umd', //libraryTarget会生成不同umd的代码,可以只是commonjs标准的，也可以是指amd标准的，也可以只是通过script标签引入的。
+        umdNamedDefine: true,
     },
     //webpack-dev-server配置
     devServer: {

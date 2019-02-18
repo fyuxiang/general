@@ -8,6 +8,7 @@ const Demo= demo.Demo
 export class Main extends Demo{
     constructor(){
         super();
+        console.log(111)
         this.consoleLog();
     }
 }

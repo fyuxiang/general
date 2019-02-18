@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack-dev-server"
+    "build": "webpack --mode=development",
+    "dev": "webpack-dev-server --mode=development"
   },
   "keywords": [],
   "author": "General",
   "license": "ISC",
+  "main": "app/general.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yucccc/vue-pay-keyboard"
+  },
   "devDependencies": {
     "autoprefixer": "^9.4.7",
     "babel-core": "^6.26.3",
