@@ -1,8 +1,8 @@
 {
-  "name": "demoFYX",
+  "name": "demo-fyx",
+  "private":false,
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "build": "webpack --mode=development",
     "dev": "webpack-dev-server --mode=development"
